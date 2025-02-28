@@ -31,7 +31,6 @@ namespace csharpapigenerica.Controllers
             _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
         }
 
-
         /// <summary>
         /// Endpoint de la raíz de la API.
         /// Muestra un mensaje de bienvenida con información básica sobre la API.
@@ -50,7 +49,6 @@ namespace csharpapigenerica.Controllers
 
             return Ok(mensaje);
         }
-
 
 
         /// <summary>
